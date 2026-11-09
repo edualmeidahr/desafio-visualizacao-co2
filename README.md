@@ -181,30 +181,7 @@ lideram as históricas e países como o **Catar** lideram por pessoa. O **Brasil
 quando se olha só para combustíveis fósseis, mas está entre os maiores emissores históricos por causa da
 mudança no uso da terra.
 
----
 
-## 🚀 Publicar no Streamlit Community Cloud (gerar o link de entrega)
-
-1. Crie um repositório **público** no GitHub e envie a pasta do projeto (o `.gitignore` já exclui o `.venv`):
-   ```bash
-   git init
-   git add .
-   git commit -m "Desafio de visualização de dados - emissões de CO2"
-   git branch -M main
-   git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-   git push -u origin main
-   ```
-2. Acesse https://share.streamlit.io e entre com sua conta do GitHub.
-3. Clique em **Create app** → **Deploy a public app from GitHub**.
-4. Escolha o repositório, a branch `main` e o arquivo principal `app.py`.
-   Em **Advanced settings**, selecione Python **3.10** ou **3.11**.
-5. Clique em **Deploy**. Em alguns minutos você recebe um link do tipo
-   `https://SEU-APP.streamlit.app`, que é o link de entrega.
-
-> Os CSVs ficam no repositório (o maior tem cerca de 14 MB, abaixo do limite de 100 MB do GitHub), então o
-> app funciona sem baixar nada na hora.
-
----
 
 **Fonte dos dados:** Our World in Data – *CO₂ and Greenhouse Gas Emissions*
 (https://github.com/owid/co2-data), licença CC BY 4.0.
