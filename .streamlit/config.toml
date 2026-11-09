@@ -1,0 +1,4 @@
+[theme]
+# Tema claro fixo, para combinar com o fundo branco dos gráficos Plotly
+base = "light"
+primaryColor = "#A0522D"
