@@ -3,6 +3,11 @@
 
 Atividade prática de **Ciência de Dados – Desafio de Visualização de Dados**.
 
+🔗 **App publicado:** https://desafio-visualizacao-co2-w9pdf3vn5jxfqnf6vkafqk.streamlit.app/
+
+> Se o app estiver "dormindo" (tela com o botão *"Yes, get this app back up!"*), clique no botão e aguarde
+> cerca de 1 minuto. Versão estática sem servidor: abra `html/index.html`.
+
 Este projeto é um painel interativo, feito em **Streamlit + Plotly**, que conta uma história a partir dos
 dados de emissões de CO₂ do *Our World in Data*. A pergunta central é:
 
